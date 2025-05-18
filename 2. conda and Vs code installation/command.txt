@@ -1,0 +1,10 @@
+List of command to check the installed package within in envs
+=============================================================
+pip list 
+pip freeze
+pip list  --format=freeze
+
+To share the environment used for running the application
+=========================================================
+pip freeze> requirement.txt
+pip list  --format=freeze > requirement.txt
