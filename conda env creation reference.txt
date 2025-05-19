@@ -1,0 +1,16 @@
+conda create -p venv python==3.12
+
+In conda, the -p (or --prefix) flag is used to specify the full path where a conda environment should be created or activated.
+
+When to use -p instead of -n?
+Use -n (or --name) if you want to store the environment in the default location (~/miniconda3/envs/).
+
+Use -p if you want the environment to be created outside the default location, which can be useful for:
+
+Project-specific virtual environments.
+
+Shared environments in a common directory.
+
+
+
+conda activate venv/

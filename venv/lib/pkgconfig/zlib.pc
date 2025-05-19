@@ -1,0 +1,13 @@
+prefix=/Volumes/Drive D/Agentic AI/venv
+exec_prefix=/Volumes/Drive D/Agentic AI/venv
+libdir=/Volumes/Drive D/Agentic AI/venv/lib
+sharedlibdir=/Volumes/Drive D/Agentic AI/venv/lib
+includedir=/Volumes/Drive D/Agentic AI/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
